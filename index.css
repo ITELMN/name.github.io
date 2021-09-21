@@ -1,0 +1,81 @@
+.navbar{
+width: 90%;
+margin: 0 auto;
+}
+#values {
+  position: relative;
+  font-size: 200%;
+  text-align: center;
+  margin: 0 auto;
+  z-index: 10;
+}
+
+.name {
+  color: #ffffff;
+  overflow: hidden;
+  display: block;
+}
+
+#names {
+  display: none;
+  padding: 5px;
+}
+
+#namesbox {
+  min-height: 400px;
+  font-size: 32px;
+  color: #2a2e37;
+  resize: none;
+  border: 1px solid #F39C12;
+}
+
+/* .extra {
+  font-size: 16px;
+  margin-top: 20px;
+} */
+
+#result1 {
+  width: 50%;
+  margin: 0 auto;
+  border-radius: 10px;
+  background: #8559e2;
+  color: #ebecf0;
+  padding: 20px;
+  margin-top: -150px;
+  font-size: 45px;
+}
+
+
+#varnote {
+  font-size: 40px;
+  text-align: center;
+  padding: 30px;
+}
+
+.icon {
+  margin: 0 auto;
+  width: 100px;
+  bottom: 10px;
+  height: 100px;
+}
+
+.copyright {
+  margin: 0 auto;
+  position: fixed;
+  bottom: 10px;
+  text-align: center;
+  font-size: 11px;
+  font-family: Tahoma;
+  color: #570df8;
+}
+.word{
+  margin-top: 30px;
+  color: #ff9900;
+  font-size: 40px;
+  text-align:center;
+}
+.row{
+  bottom: 10px;
+  border-radius: 20px;
+  background-color: #d1d5db;
+}

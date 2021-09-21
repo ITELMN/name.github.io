@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light"></html>
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="img/artor.png" sizes="16x16">
+  <meta name="viewport" content="width=device-width" />
+  <title>随机抽签</title>
+  <link rel="stylesheet" href="index.css" />
+  <link rel="stylesheet" href="css/normalize.css" />
+  <link rel="stylesheet" href="css/foundation.css" />
+  <link href="https://cdn.jsdelivr.net/npm/tachyons@latest/css/tachyons.min.css" rel="stylesheet" type="text/css" />
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@1.14.0/dist/full.css" rel="stylesheet" type="text/css" />
+  <script src="js/vendor/custom.modernizr.js"></script>
+  <script src="js/jquery-latest.min.js"></script>
+</head>
+<div class="navbar"><div class="btn-group">
+  <a href="index.html" class="btn btn-outline btn-lg btn-active" id="reset">重新</a> 
+  <button class="btn btn-outline btn-lg" id="list" onclick="namelist();">名单</button> 
+  <button class="btn btn-outline btn-lg" id="save" onclick="save();">保存 &amp; 更新</button> 
+  <button class="btn btn-outline btn-lg btn-active" onclick="go();">开始</button> 
+  </button>
+</div></div>
+<body onload="reset();">
+  <!-- <div class="full-head"
+    style="width:100%;background:#111 url(img/header-bg.png) repeat-x center top;border-bottom:10px solid #111;">
+    <div class="row">
+      <div class="large-12 columns"
+        style="padding-top:50px;background:#111 url(img/header-bg.png) repeat-x center top;z-index:20;">
+        <ul class="button-group even-4">
+          <li><a href="index.html" class="btn btn-xs md:btn-sm lg:btn-md xl:btn-lg" id="reset">重开</a></li>
+          <li><button class="btn btn-outline btn-secondary" id="list" onclick="namelist();">名单</button></li>
+          <li><button class="btn btn-outline btn-secondary" id="save" onclick="save();">保存 &amp; 更新</button></li>
+          <li><button class="btn btn-outline btn-primary" onclick="go();">开始</button> </li></ul>
+      </div>
+    </div>
+  </div> -->
+  <div class="row">
+    <div class="large-12 columns">
+      <div class="bobo"><h3 class="word" id="headline">点击“开始”抽签</h3></div>
+
+      <div id="varnote"><img class="icon" src="img/artor.png">
+        <div class="copyright">&copy; Coded by <strong>ARTOR</strong>, September 2021</div>
+      </div>
+      <div id="popdown">
+        <div id="names" class="inbox"><textarea name="namesbox" id="namesbox"></textarea></div>
+      </div>
+      <div id="values"></div>
+    </div>
+  </div>
+
+  <script>
+    document.write('<script src=' +
+      ('__proto__' in {} ? 'js/vendor/zepto' : 'js/vendor/jquery') +
+      '.js><\/script>')
+  </script>
+  <script src="js/foundation.min.js"></script>
+  <script>$(document).foundation();</script>
+  <script src="index.js"></script>
+</body>
+
+</html>
